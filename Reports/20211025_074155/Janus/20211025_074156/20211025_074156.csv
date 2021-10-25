@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Janus,Chrome 94.0.4606.81,,,2021-10-25 07:42:00,2021-10-25 07:42:11,10.779s,PASSED
+,,,,,,,
+Test Cases/Login,Chrome 94.0.4606.81,,,2021-10-25 07:42:01,2021-10-25 07:42:11,10.314s,PASSED
+"openBrowser(""risdev.umeetme.id"")",Chrome 94.0.4606.81,,,2021-10-25 07:42:01,2021-10-25 07:42:08,6.523s,PASSED
+"waitForElementVisible(findTestObject(""Login/Insert""), 5)",Chrome 94.0.4606.81,,,2021-10-25 07:42:08,2021-10-25 07:42:09,0.808s,PASSED
+"setText(findTestObject(""Login/Insert""), ""122"")",Chrome 94.0.4606.81,,,2021-10-25 07:42:09,2021-10-25 07:42:10,0.983s,PASSED
+"setText(findTestObject(""Login/Name""), ""Dika"")",Chrome 94.0.4606.81,,,2021-10-25 07:42:10,2021-10-25 07:42:10,0.769s,PASSED
+"click(findTestObject(""Login/Join""))",Chrome 94.0.4606.81,,,2021-10-25 07:42:10,2021-10-25 07:42:11,0.817s,PASSED
