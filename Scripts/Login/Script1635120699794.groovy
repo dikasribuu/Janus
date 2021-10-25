@@ -17,3 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('risdev.umeetme.id')
+
+WebUI.waitForElementVisible(findTestObject('Login/Insert'), 5)
+
+WebUI.setText(findTestObject('Login/Insert'), '122')
+
+WebUI.setText(findTestObject('Login/Name'), 'Dika')
+
+WebUI.click(findTestObject('Login/Join'))
+
