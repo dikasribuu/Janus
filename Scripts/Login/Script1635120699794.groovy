@@ -18,7 +18,7 @@ WebUI.openBrowser('risdev.umeetme.id')
 
 WebUI.waitForElementVisible(findTestObject('Login/Insert'), 5)
 
-WebUI.setText(findTestObject('Login/Insert'), '122')
+WebUI.setText(findTestObject('Login/Insert'), '125')
 
 WebUI.setText(findTestObject('Login/Name'), 'Dika')
 
